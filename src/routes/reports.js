@@ -138,9 +138,6 @@ router.post('/', async (req, res) => {
   }
 });
 
-
-// ============ GETs INDIVIDUAIS (sem salvar no banco) ============
-
 // 1. Vendas mensais
 router.get('/monthly-sales', async (req, res) => {
   try {
