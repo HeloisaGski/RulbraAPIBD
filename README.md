@@ -183,5 +183,5 @@ Abaixo está o diagrama da modelagem lógica das entidades:
 | 🎓 Projeto   | **RUlbra – Sistema de Delivery Universitário** |
 | 📚 Disciplina | Banco de Dados                                |
 | 👨‍🏫 Professor | Tiago Dias                                     |
-| 👩‍💻 Alunas    | Gabriela Anjos e S. Heloisa Guincheski         |
+| 👩‍💻 Alunas    | S. Heloisa Guincheski e Gabriela Anjos          |
 
