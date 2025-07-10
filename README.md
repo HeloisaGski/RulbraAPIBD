@@ -161,9 +161,9 @@ Abaixo está o diagrama da modelagem lógica das entidades:
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Backend:** Laravel 12.x + MongoDB
+- **Backend:** Node.js + Express + MongoDB (usando Mongoose)
 - **Banco:** MongoDB com collections estruturadas
-- **Documentação:** [Laravel MongoDB Docs](https://laravel.com/docs/12.x/mongodb)
+- **Documentação:** [Node.js + MongoDB com Mongoose](https://mongoosejs.com/docs/index.html)
 
 ---
 
@@ -172,7 +172,7 @@ Abaixo está o diagrama da modelagem lógica das entidades:
 - `README.md` com explicações e diagrama
 - Base de dados MongoDB com 50 registros por collection
 - Scripts `.js/.json` para povoamento
-- Microserviço Laravel com 4 endpoints para relatórios
+- Microserviço Node.js com 4 endpoints para relatórios
 
 ---
 
