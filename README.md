@@ -135,20 +135,19 @@ O banco de dados é o núcleo de armazenamento do sistema, sendo responsável po
 
 Utilizamos **referência** para manter a normalização, facilitar a escalabilidade e evitar redundância de dados.
 
----
-
 ## 📊 Relatórios Relevantes
 
-1. Total de vendas por mês  
-2. Produtos mais vendidos  
-3. Alunos com mais pedidos no mês  
-4. Total de pedidos por categoria  
-5. Média de valor gasto por usuário  
-6. Estoque atual por produto  
-7. Receita total por categoria  
-8. Histórico de consumo individual (por RA)
+| Relatório                                     | Descrição                                                   | Endpoint de Acesso                         |
+|-----------------------------------------------|-------------------------------------------------------------|--------------------------------------------|
+| 1. Total de vendas por mês                    | Mostra o total de vendas e pedidos agrupados por mês       | `GET /reports/monthly-sales`              |
+| 2. Produtos mais vendidos                     | Lista os produtos com maiores quantidades vendidas         | `GET /reports/most-sold-products`         |
+| 3. Alunos com mais pedidos no mês             | Lista os usuários com mais pedidos e maior valor gasto      | `GET /reports/orders-by-customer`         |
+| 4. Total de pedidos por categoria             | Agrupamento de pedidos por status                           | `GET /reports/orders-by-status`           |
+| 5. Média de valor gasto por usuário (ticket)  | Calcula o ticket médio de cada usuário                      | `GET /reports/average-ticket`             |
+| 6. Faturamento diário                         | Vendas e pedidos agrupados por dia                          | `GET /reports/daily-sales`                |
+| 7. Vendas por forma de pagamento              | Mostra os valores de vendas por método de pagamento         | `GET /reports/sales-by-payment-method`    |
+| 8. Produtos menos vendidos                    | Lista os produtos com menores quantidades vendidas          | `GET /reports/least-sold-products`        |
 
----
 
 ## 🧱 Modelagem do Sistema
 
@@ -184,4 +183,8 @@ Abaixo está o diagrama da modelagem lógica das entidades:
 | 📚 Disciplina | Banco de Dados                                |
 | 👨‍🏫 Professor | Tiago Dias                                     |
 | 👩‍💻 Alunas    | S. Heloisa Guincheski e Gabriela Anjos          |
+
+
+
+
 
